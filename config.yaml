@@ -14,5 +14,6 @@ url: https://github.com/MestreSales/hass-openvpn-client
 host_network: true
 privileged: ["NET_ADMIN"]
 startup: "before"
+init: false
 schema: 
   filename: str
