@@ -10,7 +10,7 @@ Go to the "**Add-on Store**", click on the top-left 3 dots and add this reposito
 
 ## The add-on
 
-Make sure you put your config file in the `/config` folder of the home-assistant. You can access this folder by using the `Samba share` or `File editor` add-ons, I used the former.
+Make sure you put your config file in the `/addon_configs/openvpn-client` folder of the home-assistant. You can access this folder by using the `Samba share` or `File editor` add-ons, I used the former.
 Then, in the configurations of the add-on, set the config file's name, under `filename`. 
 
 **Make sure you restart the add-on if you set a new configuration file, or change the current one.**
