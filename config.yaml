@@ -2,7 +2,8 @@ name: "OpenVPN connector"
 version: "0.0.0"
 slug: folder
 description: >-
-  "An addon that lets you connect your hass to your OpenVPN server with your `.ovpn` client file."
+  An addon that lets you connect your hass to your OpenVPN server with your .ovpn client file.
+  If the connection goes down, ovpn already tries to reconnect automatically, unless specified otherwise in your config file.
 arch:
   - armhf
   - armv7
@@ -14,4 +15,4 @@ host_network: true
 privileged: ["NET_ADMIN"]
 startup: "before"
 schema: 
-  path_to_ovpn: str
+  filename: str

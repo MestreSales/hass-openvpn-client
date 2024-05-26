@@ -1,5 +1,5 @@
 #!/usr/bin/with-contenv bashio
 
-OVPN_CONFIG="$(bashio::config 'path_to_ovpn')"
+OVPN_CONFIG="$(bashio::config 'filename')"
 
-openvpn --config "${OVPN_CONFIG}"
+openvpn --config "/config/${OVPN_CONFIG}"
