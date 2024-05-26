@@ -1,6 +1,6 @@
 name: "OpenVPN connector"
 version: "0.0.0"
-slug: folder
+slug: openvpn-client
 description: >-
   An addon that lets you connect your hass to your OpenVPN server with your .ovpn client file.
   If the connection goes down, ovpn already tries to reconnect automatically, unless specified otherwise in your config file.
