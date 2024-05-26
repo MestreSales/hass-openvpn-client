@@ -2,4 +2,4 @@
 
 OVPN_CONFIG="$(bashio::config 'filename')"
 
-openvpn --config "/config/${OVPN_CONFIG}"
+openvpn --config "/config/openvpn-client/${OVPN_CONFIG}"
