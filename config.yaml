@@ -1,0 +1,13 @@
+name: "OpenVPN connector"
+version: "0.0.0"
+slug: folder
+description: >-
+  "An addon that lets you connect your hass to your OpenVPN server with your `.ovpn` client file."
+arch:
+  - amd64
+url: https://github.com/MestreSales/hass-openvpn-client
+host_network: true
+privileged: ["NET_ADMIN"]
+startup: "before"
+schema: 
+  path_to_ovpn: str
